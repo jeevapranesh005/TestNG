@@ -1,4 +1,5 @@
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Ignore;
 
@@ -17,25 +18,27 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
-public class NewTest {
+public class softAssert {
 	public WebDriver driver;
 	public WebDriverWait mywait ;
+	SoftAssert sa  = new SoftAssert();
 	
-	
+  
   @Test(priority=1)
   public void correct() {
-	  driver.findElement(By.xpath("//a[@id='login2']")).click();
-	  driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("jeevs");
-	  driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("1234567890");
-	  driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
-	  
-	  WebElement ele =driver.findElement(By.xpath("//a[text()=\"Welcome jeevs\"]"));
-	  String act = ele.getText();
-	  String exp = "Welcome jeevs";
-	  
-	  Assert.assertEquals(act,exp);
-	  System.out.println("login succesfull");
-	  
+      driver.findElement(By.xpath("//a[@id='login2']")).click();
+      driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("jeevs");
+      driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("1234567890");
+      driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
+
+      WebElement ele = driver.findElement(By.xpath("//a[text()=\"Welcome jeevs\"]"));
+      String act = ele.getText();
+      String exp = "Welcome ";
+
+      sa.assertEquals(act, exp);
+      System.out.println("login succesfull");
+
+      sa.assertAll();  
   }
   
   @Test(priority=2)
@@ -49,11 +52,13 @@ public class NewTest {
 	  Alert alert=driver.switchTo().alert();
 	  String act = alert.getText();
 	  
-	  String exp= "Wrong password.";
+	  String exp= "Wrong passwor";
 	  alert.accept();
 	  
-	  Assert.assertEquals(act,exp,"error");
+	  sa.assertEquals(act,exp,"error");
 	  System.out.println("login is mismatch");
+	  
+	  
 	  
   }
   
