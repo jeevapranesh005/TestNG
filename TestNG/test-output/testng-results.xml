@@ -1,89 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T16:25:19 IST" name="Default suite" finished-at="2026-04-17T16:25:34 IST" duration-ms="14703">
+  <suite started-at="2026-04-20T11:50:02 IST" name="Default suite" finished-at="2026-04-20T11:50:16 IST" duration-ms="14113">
     <groups>
     </groups>
-    <test started-at="2026-04-17T16:25:19 IST" name="Default test" finished-at="2026-04-17T16:25:34 IST" duration-ms="14703">
-      <class name="softAssert">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:19 IST" name="beforeTest" finished-at="2026-04-17T16:25:22 IST" duration-ms="2899" status="PASS">
+    <test started-at="2026-04-20T11:50:02 IST" name="Default test" finished-at="2026-04-20T11:50:16 IST" duration-ms="14113">
+      <class name="NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:02 IST" name="beforeTest" finished-at="2026-04-20T11:50:06 IST" duration-ms="4075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="correct()[pri:1, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:22 IST" name="correct" finished-at="2026-04-17T16:25:25 IST" duration-ms="2955" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Welcome ] but found [Welcome jeevs]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Welcome ] but found [Welcome jeevs]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at softAssert.correct(softAssert.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="correct()[pri:1, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:06 IST" name="correct" finished-at="2026-04-20T11:50:08 IST" duration-ms="2225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correct -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:25 IST" name="afterTest" finished-at="2026-04-17T16:25:25 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:08 IST" name="afterTest" finished-at="2026-04-20T11:50:09 IST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:25 IST" name="beforeTest" finished-at="2026-04-17T16:25:27 IST" duration-ms="1965" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:09 IST" name="beforeTest" finished-at="2026-04-20T11:50:12 IST" duration-ms="2759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="incorrect()[pri:2, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:27 IST" name="incorrect" finished-at="2026-04-17T16:25:29 IST" duration-ms="1622" status="PASS">
+        <test-method signature="incorrect()[pri:2, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:12 IST" name="incorrect" finished-at="2026-04-20T11:50:13 IST" duration-ms="1479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrect -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:29 IST" name="afterTest" finished-at="2026-04-17T16:25:29 IST" duration-ms="516" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:13 IST" name="afterTest" finished-at="2026-04-20T11:50:14 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:29 IST" name="beforeTest" finished-at="2026-04-17T16:25:31 IST" duration-ms="1790" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:14 IST" name="beforeTest" finished-at="2026-04-20T11:50:16 IST" duration-ms="1972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="wrong()[pri:3, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:31 IST" name="wrong" finished-at="2026-04-17T16:25:32 IST" duration-ms="543" status="PASS">
+        <test-method signature="wrong()[pri:3, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:16 IST" name="wrong" finished-at="2026-04-20T11:50:16 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrong -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:softAssert@73a1e9a9]" started-at="2026-04-17T16:25:32 IST" name="afterTest" finished-at="2026-04-17T16:25:34 IST" duration-ms="2109" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:NewTest@1aafa419]" started-at="2026-04-20T11:50:16 IST" name="afterTest" finished-at="2026-04-20T11:50:16 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- softAssert -->
+      </class> <!-- NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

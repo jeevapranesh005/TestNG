@@ -2,6 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class assertion1 {
+	
 	  @Test
 	  public void f() {
 		  

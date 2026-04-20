@@ -2,13 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <groups>
-  <run>
-  <include name="somke"></include>
-  <include name="regression"></include>
-  </run>
-  </groups>
-  <classes>
-  <class name="NewTest"></class></classes>
+    <classes>
+      <class name="basicTestNG.testnew1"/>
+      <class name="basicTestNG.sample"/>
+      <class name=".NewTest"/>
+      <class name=".assertion1"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
