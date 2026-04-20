@@ -8,6 +8,7 @@
 
     <classes>
       <class name="parameter1.paraDemo"/>
+      <class name="parameter1.dataprovider1"/>
     </classes>
 
   </test>
