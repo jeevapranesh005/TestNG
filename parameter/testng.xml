@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test name="Test" parallel="methods" thread-count="3">
+
+    <parameter name="url" value="https://demoblaze.com/#"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Vuser" value="jeevs"/>
+    <parameter name="Vpass" value="1234567890"/>
+
+    <classes>
+      <class name="parameter1.paraDemo"/>
+    </classes>
+
+  </test>
+</suite>
