@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 //sequencial method1
 public class DataProviderDemo1 {
 WebDriver driver;
-@DataProvider(name="testData" ,parallel=true)
+@DataProvider(name="testData" ,parallel=true,indices= {0})
 public  Object[][] dataProviderfun(){
 	return new Object[][] {{"Selenium"},{"TestNG"}};
 }

@@ -1,4 +1,4 @@
-import org.testng.annotations.Test;
+import org.testng.annotations.Test; 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Ignore;
 
@@ -16,15 +16,20 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class NewTest {
+	private static final Logger log = LogManager.getLogger(NewTest.class);
 	public WebDriver driver;
 	public WebDriverWait mywait ;
 	
 	
   @Test(priority=1)
   public void correct() {
+	  log.info("navigate to login page");
 	  driver.findElement(By.xpath("//a[@id='login2']")).click();
+	  log.info("enter username and password");
 	  driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("jeevs");
 	  driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("1234567890");
 	  driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
@@ -35,12 +40,15 @@ public class NewTest {
 	  
 	  Assert.assertEquals(act,exp);
 	  System.out.println("login succesfull");
+	  log.info("login successful");
 	  
   }
   
   @Test(priority=2)
   public void incorrect() {
+	  log.info("navigate to login page");
 	  driver.findElement(By.xpath("//a[@id='login2']")).click();
+	  log.info("enter username and password as invalid");
 	  driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("jeevs");
 	  driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("123");
 	  driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
@@ -49,11 +57,20 @@ public class NewTest {
 	  Alert alert=driver.switchTo().alert();
 	  String act = alert.getText();
 	  
-	  String exp= "Wrong password.";
-	  alert.accept();
 	  
-	  Assert.assertEquals(act,exp,"error");
-	  System.out.println("login is mismatch");
+	  alert.accept();
+	  try {
+		 
+		  String exp = "Wrong Password";
+		  
+		  Assert.assertEquals(act,exp);
+		  log.info("invalid password");
+	  }
+	  catch(AssertionError e) {
+		  System.out.println("invalid login is accepted");
+		  log.error("invalid login is accepted"+e.getMessage());
+		  throw e;
+	  }
 	  
   }
   
@@ -63,7 +80,7 @@ public class NewTest {
 	  driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("john");
 	  driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("1234567890");
 	  driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
-	
+	  
 	  
   }
   

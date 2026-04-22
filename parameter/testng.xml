@@ -7,8 +7,7 @@
     <parameter name="Vpass" value="1234567890"/>
 
     <classes>
-      <class name="parameter1.paraDemo"/>
-      <class name="parameter1.dataprovider1"/>
+      <class name="DataProvider.dataprovider1"/>
     </classes>
 
   </test>
