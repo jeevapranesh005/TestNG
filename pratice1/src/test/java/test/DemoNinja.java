@@ -38,7 +38,7 @@ public class DemoNinja
 	  driver1.get("https://tutorialsninja.com/demo/");
 	  WebDriverWait wait = new WebDriverWait(driver1, Duration.ofSeconds(15));
 	  
-	  w 
+	  
 	  log.info("login with the email :"+email+" and password :"+pass);
 	  
 	  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id=\"input-email\"]"))).sendKeys(email);
