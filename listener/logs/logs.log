@@ -15,3 +15,19 @@
 [INFO ] 2026-04-28 10:24:04.193 [main] demotest - Page title is: My Account
 [INFO ] 2026-04-28 10:24:04.201 [main] demolistenerfail - Test PASSED: loginTest
 [INFO ] 2026-04-28 10:24:04.205 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:34:21.684 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:34:24.040 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 10:34:24.040 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:34:24.151 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:34:24.406 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:34:24.735 [main] demotest - Page title is: Account Login
+[INFO ] 2026-04-28 10:34:24.751 [main] demolistenerfail - Test PASSED: loginTest
+[INFO ] 2026-04-28 10:34:24.751 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:49:10.929 [main] demotest - Launching browser in headless mode
+[INFO ] 2026-04-28 10:49:13.279 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 10:49:13.289 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:49:13.451 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:49:13.758 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:49:15.938 [main] demotest - Page title is: My Account
+[INFO ] 2026-04-28 10:49:15.943 [main] demolistenerfail - Test PASSED: loginTest
+[INFO ] 2026-04-28 10:49:15.945 [main] demotest - Closing browser
