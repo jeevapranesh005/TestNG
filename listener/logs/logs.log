@@ -1,0 +1,17 @@
+[INFO ] 2026-04-28 10:23:33.157 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:23:36.336 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 10:23:36.349 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:23:36.445 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:23:36.696 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:23:37.879 [main] demotest - Page title is: My Account
+[ERROR] 2026-04-28 10:23:37.900 [main] demolistenerfail - Test FAILED: loginTest
+[INFO ] 2026-04-28 10:23:38.112 [main] demolistenerfail - Screenshot saved at: C:\Users\jeeva\OneDrive\Desktop\EXPLEO\JAVA Selenium\listener/screenshots/loginTest.png
+[INFO ] 2026-04-28 10:23:38.129 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:23:58.985 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:24:01.287 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 10:24:01.335 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:24:01.458 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:24:01.708 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:24:04.193 [main] demotest - Page title is: My Account
+[INFO ] 2026-04-28 10:24:04.201 [main] demolistenerfail - Test PASSED: loginTest
+[INFO ] 2026-04-28 10:24:04.205 [main] demotest - Closing browser

@@ -50,3 +50,70 @@
 [INFO ] 2026-04-22 12:33:07.575 [main] NewTest - navigate to login page
 [INFO ] 2026-04-22 12:33:07.762 [main] NewTest - enter username and password as invalid
 [ERROR] 2026-04-22 12:33:09.300 [main] NewTest - invalid login is acceptedexpected [Wrong Password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:08:12.674 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:08:12.844 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:08:15.082 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:08:19.550 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:08:19.731 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:08:20.354 [main] NewTest - invalid login is acceptedexpected [Wrong Password] but found [Please fill out Username and Password.]
+[INFO ] 2026-04-22 14:11:20.985 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:11:21.190 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:11:22.800 [main] NewTest - invalid login is acceptedexpected [Wrong Password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:17:05.714 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:17:05.904 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:17:08.046 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:17:12.651 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:17:12.834 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:17:14.463 [main] NewTest - invalid login is acceptedexpected [Wrong password.c] but found [Wrong password.]
+[INFO ] 2026-04-22 14:18:03.276 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:18:03.529 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:18:06.299 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:18:11.636 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:18:11.831 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:18:13.540 [main] NewTest - invalid login is acceptedexpected [Wrong password. ] but found [Wrong password.]
+[INFO ] 2026-04-22 14:19:50.500 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:19:50.727 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:19:53.023 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:19:57.816 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:19:58.029 [main] NewTest - enter username and password as invalid
+[INFO ] 2026-04-22 14:19:59.592 [main] NewTest - invalid password
+[INFO ] 2026-04-22 14:20:31.614 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:20:31.824 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:20:34.055 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:20:40.547 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:20:40.729 [main] NewTest - enter username and password as invalid
+[INFO ] 2026-04-22 14:20:42.341 [main] NewTest - invalid password
+[INFO ] 2026-04-22 14:22:48.954 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:22:49.170 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:22:51.637 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:23:02.945 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:23:03.102 [main] NewTest - enter username and password as invalid
+[INFO ] 2026-04-22 14:23:04.680 [main] NewTest - invalid password
+[INFO ] 2026-04-22 14:25:02.360 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:25:02.585 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:25:04.827 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:25:12.308 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:25:12.463 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:25:14.044 [main] NewTest - invalid login is acceptedexpected [Wrong password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:26:37.084 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:26:37.940 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:26:39.465 [main] NewTest - invalid login is acceptedexpected [Wrong password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:31:07.085 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:31:08.041 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:31:10.595 [main] NewTest - login successful
+[INFO ] 2026-04-22 14:31:16.928 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:31:17.062 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:31:18.586 [main] NewTest - invalid login is acceptedexpected [Wrong password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:33:33.733 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:33:33.917 [main] NewTest - enter username and password as invalid
+[INFO ] 2026-04-22 14:33:35.517 [main] NewTest - invalid password
+[INFO ] 2026-04-22 14:34:46.901 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:34:47.068 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:35:05.045 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:35:05.294 [main] NewTest - enter username and password as invalid
+[ERROR] 2026-04-22 14:35:06.943 [main] NewTest - invalid login is acceptedexpected [Wrong password] but found [Wrong password.]
+[INFO ] 2026-04-22 14:39:02.805 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:39:02.990 [main] NewTest - enter username and password
+[INFO ] 2026-04-22 14:39:17.285 [main] NewTest - navigate to login page
+[INFO ] 2026-04-22 14:39:17.475 [main] NewTest - enter username and password as invalid
+[INFO ] 2026-04-22 14:39:18.984 [main] NewTest - invalid password

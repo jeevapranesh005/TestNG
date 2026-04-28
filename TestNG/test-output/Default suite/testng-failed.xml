@@ -6,6 +6,7 @@
       <class name="NewTest">
         <methods>
           <include name="incorrect"/>
+          <include name="correct"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

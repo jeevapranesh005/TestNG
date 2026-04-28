@@ -1,243 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T12:16:26 IST" name="Suite" finished-at="2026-04-22T12:17:27 IST" duration-ms="60878">
+  <suite started-at="2026-04-22T12:55:16 IST" name="Suite" finished-at="2026-04-22T12:55:16 IST" duration-ms="102">
     <groups>
     </groups>
-    <test started-at="2026-04-22T12:16:26 IST" name="Test" finished-at="2026-04-22T12:17:27 IST" duration-ms="60878">
+    <test started-at="2026-04-22T12:55:16 IST" name="Test" finished-at="2026-04-22T12:55:16 IST" duration-ms="102">
       <class name="test.DemoNinja">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:26 IST" name="beforeTest" finished-at="2026-04-22T12:16:26 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="beforeTest" finished-at="2026-04-22T12:55:16 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:27 IST" name="beforeMethod" finished-at="2026-04-22T12:16:31 IST" duration-ms="3858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:27 IST" name="beforeMethod" finished-at="2026-04-22T12:16:31 IST" duration-ms="3858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:27 IST" name="beforeMethod" finished-at="2026-04-22T12:16:31 IST" duration-ms="3858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:27 IST" name="beforeMethod" finished-at="2026-04-22T12:16:31 IST" duration-ms="3858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:27 IST" name="beforeMethod" finished-at="2026-04-22T12:16:31 IST" duration-ms="3857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="valSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="valSearch" data-provider="valSearch" finished-at="2026-04-22T12:16:41 IST" duration-ms="10141" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valSearch -->
-        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-22T12:16:31 IST" duration-ms="23" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wavene20@gamil.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sriram123@]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.Error">
+        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unresolved compilation problems: 
-w cannot be resolved to a type
-Syntax error on token ".", ; expected
-The method info(String) is undefined for the type DemoNinja
-]]>
+              <![CDATA[
+Data Provider public java.lang.Object[][] utile.ExcelUtility.validData() throws java.io.IOException returned a null value]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-w cannot be resolved to a type
-Syntax error on token ".", ; expected
-The method info(String) is undefined for the type DemoNinja
-
-at test.DemoNinja.ValLogin(DemoNinja.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] utile.ExcelUtility.validData() throws java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValLogin -->
-        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T12:17:22 IST" duration-ms="51313" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2k22aids24@kiot.ac.in]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[titoo123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="inValSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="inValSearch" data-provider="inValSearch" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=147.0.7727.102)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d39faed4939e4764db63edf3d465db2, get {url=https://tutorialsninja.com/demo/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49913}, goog:processID: 26600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49913/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d39faed4939e4764db63edf3d465db2]]>
+              <![CDATA[
+Data Provider public java.lang.Object[][] utile.ExcelUtility.inValSearch() throws java.io.IOException returned a null value]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=147.0.7727.102)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d39faed4939e4764db63edf3d465db2, get {url=https://tutorialsninja.com/demo/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49913}, goog:processID: 26600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49913/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d39faed4939e4764db63edf3d465db2
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:374)
-at test.DemoNinja.inValLogin(DemoNinja.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] utile.ExcelUtility.inValSearch() throws java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inValLogin -->
-        <test-method signature="inValSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="inValSearch" data-provider="inValSearch" finished-at="2026-04-22T12:16:43 IST" duration-ms="12596" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kiot]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValSearch -->
-        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T12:17:26 IST" duration-ms="55357" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[titooram123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sriram123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=147.0.7727.102)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbb68762ac83eaff1e6e8985b57bc3b6, get {url=https://tutorialsninja.com/demo/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49912}, goog:processID: 25320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49912/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbb68762ac83eaff1e6e8985b57bc3b6]]>
+              <![CDATA[
+Data Provider public java.lang.Object[][] utile.ExcelUtility.invalidData() throws java.io.IOException returned a null value]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=147.0.7727.102)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbb68762ac83eaff1e6e8985b57bc3b6, get {url=https://tutorialsninja.com/demo/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49912}, goog:processID: 25320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49912/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbb68762ac83eaff1e6e8985b57bc3b6
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:374)
-at test.DemoNinja.inValLogin(DemoNinja.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] utile.ExcelUtility.invalidData() throws java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValLogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:31 IST" name="afterMethod" finished-at="2026-04-22T12:16:56 IST" duration-ms="25280" status="PASS">
+        <test-method signature="valSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="valSearch" data-provider="valSearch" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] utile.ExcelUtility.valSearch() throws java.io.IOException returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] utile.ExcelUtility.valSearch() throws java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:41 IST" name="afterMethod" finished-at="2026-04-22T12:16:56 IST" duration-ms="15167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:16:43 IST" name="afterMethod" finished-at="2026-04-22T12:16:56 IST" duration-ms="12731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:17:22 IST" name="afterMethod" finished-at="2026-04-22T12:17:23 IST" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:17:26 IST" name="afterMethod" finished-at="2026-04-22T12:17:27 IST" duration-ms="293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:17:27 IST" name="afterTest" finished-at="2026-04-22T12:17:27 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- valSearch -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="afterTest" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

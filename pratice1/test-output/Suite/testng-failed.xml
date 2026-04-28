@@ -5,12 +5,14 @@
     <classes>
       <class name="test.DemoNinja">
         <methods>
-          <include name="inValLogin" invocation-numbers="0 1"/>
+          <include name="inValLogin"/>
           <include name="afterMethod"/>
           <include name="beforeTest"/>
+          <include name="inValSearch"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
-          <include name="ValLogin" invocation-numbers="0"/>
+          <include name="ValLogin"/>
+          <include name="valSearch"/>
         </methods>
       </class> <!-- test.DemoNinja -->
     </classes>

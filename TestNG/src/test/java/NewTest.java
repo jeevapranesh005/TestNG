@@ -36,7 +36,7 @@ public class NewTest {
 	  
 	  WebElement ele =driver.findElement(By.xpath("//a[text()=\"Welcome jeevs\"]"));
 	  String act = ele.getText();
-	  String exp = "Welcome jeevs";
+	  String exp = "Welcome jeev";
 	  
 	  Assert.assertEquals(act,exp);
 	  System.out.println("login succesfull");
@@ -61,7 +61,7 @@ public class NewTest {
 	  alert.accept();
 	  try {
 		 
-		  String exp = "Wrong Password";
+		  String exp = "Wrong password.";
 		  
 		  Assert.assertEquals(act,exp);
 		  log.info("invalid password");
