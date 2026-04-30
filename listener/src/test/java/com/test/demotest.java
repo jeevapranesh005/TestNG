@@ -1,6 +1,6 @@
 package com.test;
 
-import org.testng.annotations.*;
+import org.testng.annotations.*; 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.*;
 
 import org.testng.Assert;
 
-@Listeners(demolistenerfail.class)
+@Listeners(DemoListener.class)
 public class demotest {
 
     public WebDriver driver;
@@ -67,7 +67,7 @@ public class demotest {
         String title = driver.getTitle();
         log.info("Page title is: " + title);
 
-        Assert.assertTrue(title.contains("Account"));
+        Assert.assertTrue(title.contains("Accounts"));
     }
 
     @AfterMethod

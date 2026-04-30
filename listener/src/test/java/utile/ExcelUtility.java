@@ -47,7 +47,7 @@ public class ExcelUtility
 	
 	public static Object[][] excelDataProvider (String sheet) throws IOException
 	{
-		Object[][] arrObj = getExcelData("C:\\Users\\jeeva\\git\\TestNG\\pratice1\\src\\test\\resources\\Data.xlsx",sheet);
+		Object[][] arrObj = getExcelData("C:\\Users\\jeeva\\OneDrive\\Desktop\\EXPLEO\\JAVA Selenium\\pratice1\\src\\test\\resources\\Data.xlsx",sheet);
 		
 		return arrObj;
 	}

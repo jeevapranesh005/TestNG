@@ -31,3 +31,26 @@
 [INFO ] 2026-04-28 10:49:15.938 [main] demotest - Page title is: My Account
 [INFO ] 2026-04-28 10:49:15.943 [main] demolistenerfail - Test PASSED: loginTest
 [INFO ] 2026-04-28 10:49:15.945 [main] demotest - Closing browser
+[INFO ] 2026-04-28 11:06:11.541 [main] demotest - Launching browser in headless mode
+[INFO ] 2026-04-28 11:06:16.170 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 11:06:16.182 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 11:06:16.355 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 11:06:16.661 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 11:06:18.141 [main] demotest - Page title is: My Account
+[ERROR] 2026-04-28 11:06:18.156 [main] demolistenerfail - Test FAILED: loginTest
+[INFO ] 2026-04-28 11:06:18.328 [main] demolistenerfail - Screenshot saved at: C:\Users\jeeva\git\TestNG\listener/screenshots/loginTest.png
+[INFO ] 2026-04-28 11:06:18.330 [main] demotest - Closing browser
+[INFO ] 2026-04-28 11:07:01.040 [main] demotest - Launching browser in headless mode
+[INFO ] 2026-04-28 11:07:04.170 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 11:07:04.186 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 11:07:04.403 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 11:07:04.768 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 11:07:07.539 [main] demotest - Page title is: My Account
+[INFO ] 2026-04-28 11:07:07.546 [main] demolistenerfail - Test PASSED: loginTest
+[INFO ] 2026-04-28 11:07:07.548 [main] demotest - Closing browser
+[INFO ] 2026-04-29 07:17:56.331 [main] demotest - Launching browser in headless mode
+[INFO ] 2026-04-29 07:18:04.271 [main] demotest - Clicking My Account
+[INFO ] 2026-04-29 07:18:04.479 [main] demotest - Clicking Login
+[INFO ] 2026-04-29 07:18:05.020 [main] demotest - Entering credentials
+[INFO ] 2026-04-29 07:18:05.425 [main] demotest - Page title is: Account Login
+[INFO ] 2026-04-29 07:18:07.239 [main] demotest - Closing browser

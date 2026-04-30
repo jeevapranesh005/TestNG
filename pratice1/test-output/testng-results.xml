@@ -1,141 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T12:55:16 IST" name="Suite" finished-at="2026-04-22T12:55:16 IST" duration-ms="102">
+  <suite started-at="2026-04-29T07:33:51 IST" name="Default suite" finished-at="2026-04-29T07:34:18 IST" duration-ms="27226">
     <groups>
     </groups>
-    <test started-at="2026-04-22T12:55:16 IST" name="Test" finished-at="2026-04-22T12:55:16 IST" duration-ms="102">
+    <test started-at="2026-04-29T07:33:51 IST" name="Default test" finished-at="2026-04-29T07:34:18 IST" duration-ms="27226">
       <class name="test.DemoNinja">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="beforeTest" finished-at="2026-04-22T12:55:16 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:33:51 IST" name="beforeTest" finished-at="2026-04-29T07:33:51 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.Object[][] utile.ExcelUtility.validData() throws java.io.IOException returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] utile.ExcelUtility.validData() throws java.io.IOException returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:33:53 IST" name="beforeMethod" finished-at="2026-04-29T07:33:55 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:33:55 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-29T07:34:02 IST" duration-ms="6383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wavene20@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram123@]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValLogin -->
-        <test-method signature="inValSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="inValSearch" data-provider="inValSearch" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.Object[][] utile.ExcelUtility.inValSearch() throws java.io.IOException returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] utile.ExcelUtility.inValSearch() throws java.io.IOException returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:02 IST" name="afterMethod" finished-at="2026-04-29T07:34:02 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inValSearch -->
-        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.Object[][] utile.ExcelUtility.invalidData() throws java.io.IOException returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] utile.ExcelUtility.invalidData() throws java.io.IOException returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:02 IST" name="beforeMethod" finished-at="2026-04-29T07:34:04 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:02 IST" name="beforeMethod" finished-at="2026-04-29T07:34:04 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:04 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-29T07:34:17 IST" duration-ms="12933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[titooram123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValLogin -->
-        <test-method signature="valSearch(java.lang.String)[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="valSearch" data-provider="valSearch" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.Object[][] utile.ExcelUtility.valSearch() throws java.io.IOException returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] utile.ExcelUtility.valSearch() throws java.io.IOException returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:04 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-29T07:34:14 IST" duration-ms="9872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2k22aids24@kiot.ac.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[titoo123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- valSearch -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.DemoNinja@32c726ee]" started-at="2026-04-22T12:55:16 IST" name="afterTest" finished-at="2026-04-22T12:55:16 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- inValLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:14 IST" name="afterMethod" finished-at="2026-04-29T07:34:18 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:17 IST" name="afterMethod" finished-at="2026-04-29T07:34:18 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.DemoNinja@6989da5e]" started-at="2026-04-29T07:34:18 IST" name="afterTest" finished-at="2026-04-29T07:34:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.DemoNinja -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
