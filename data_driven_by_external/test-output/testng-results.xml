@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T14:59:31 IST" name="Suite" finished-at="2026-04-21T14:59:45 IST" duration-ms="13885">
+    <groups>
+    </groups>
+    <test started-at="2026-04-21T14:59:31 IST" name="Test" finished-at="2026-04-21T14:59:45 IST" duration-ms="13885">
+      <class name="com.test.LoginDemoBlaze">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:32 IST" name="beforeMethod" finished-at="2026-04-21T14:59:33 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String)[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:33 IST" name="loginCheck" data-provider="validData" finished-at="2026-04-21T14:59:37 IST" duration-ms="3066" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeevs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=147.0.7727.101): Wrong password.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02522f60257fbb24b7d94c1844f0ee9c, findElement {value=//a[text()='Welcome jeevs'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.101, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50458}, goog:processID: 27608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50458/devtoo..., se:cdpVersion: 147.0.7727.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02522f60257fbb24b7d94c1844f0ee9c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=147.0.7727.101): Wrong password.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02522f60257fbb24b7d94c1844f0ee9c, findElement {value=//a[text()='Welcome jeevs'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.101, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50458}, goog:processID: 27608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50458/devtoo..., se:cdpVersion: 147.0.7727.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02522f60257fbb24b7d94c1844f0ee9c
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:222)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:215)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at com.test.LoginDemoBlaze.loginCheck(LoginDemoBlaze.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:37 IST" name="afterMethod" finished-at="2026-04-21T14:59:37 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:37 IST" name="beforeMethod" finished-at="2026-04-21T14:59:38 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:37 IST" name="beforeMethod" finished-at="2026-04-21T14:59:38 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginCheckInValPass(java.lang.String,java.lang.String)[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:38 IST" name="loginCheckInValPass" data-provider="invalidData" finished-at="2026-04-21T14:59:42 IST" duration-ms="4084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeevs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1233.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckInValPass -->
+        <test-method signature="loginCheckInValPass(java.lang.String,java.lang.String)[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:38 IST" name="loginCheckInValPass" data-provider="invalidData" finished-at="2026-04-21T14:59:42 IST" duration-ms="4199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paaru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[454.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckInValPass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:42 IST" name="afterMethod" finished-at="2026-04-21T14:59:44 IST" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.LoginDemoBlaze@1bb5a082]" started-at="2026-04-21T14:59:42 IST" name="afterMethod" finished-at="2026-04-21T14:59:45 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test.LoginDemoBlaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
